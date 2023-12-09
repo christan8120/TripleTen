@@ -22,3 +22,7 @@ Catatan tambahan, untuk menemukan total pendapatan, perlu dilakukan beberapa per
     - 1 menit: 1 sen
     - 1 SMS: 1 sen
     - 1 GB data: $7
+   
+Setelah semua data dieksplorasi, terakhir adalah menguji hipotesis berikut: 
+- Rata-rata pendapatan dari pengguna paket telepon Ultimate dan Surf berbeda.
+- Rata-rata pendapatan dari pengguna di wilayah NY-NJ berbeda dengan pendapatan pengguna dari wilayah lain.
