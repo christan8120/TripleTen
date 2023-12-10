@@ -1,0 +1,8 @@
+# Model Untuk Memprediksi Jumlah Ekstraksi Emas
+
+## Deskripsi
+Suatu perusahaan tambang emas menginginkan produktifitas emas yang optimal dengan mengidentifikasi dan eliminasi parameter yang tidak menguntungkan. Oleh sebab itu, mereka ingin sebuah model yang bisa memprediksi jumlah emas yang dapat diekstraksi dari bijih emas. Evaluasi model akan menggunakan metrik SMAPE (Symmetric Mean Absolute Percentage Error). 
+
+Sebelumnya, perlu dilakukan pra pemrosesan data seperti mengatasi nilai yang hilang, nilai duplikat, kesalahan tipe data, dan menghapus fitur-fitur yang tidak diperlukan dalam proses pembuatan model. Berikutnya adalah melakukan eksplorasi dan analisa data yang didapat, salah 1-nya untuk mengetahui tingkat konsentrasi di setiap tahap yang berbeda yaitu bahan dasar (feed), konsentrasi kasar (rougher.concentrate), dan konsentrasi akhir (final.concentrate). 
+
+Setelah itu, membagi dataset train menjadi 2 bagian yaitu train dan validasi. Lalu mulai pembuatan dan pelatihan model dengan menggunakan 3 algoritma berbeda untuk membandingkan kualitas masing-masing, algoritma tersebut diantaranya Linear Regression, Decision Tree Regressor, dan Random Forest Regressor. Proses pengujiannya sendiri akan menggunakan dataset test yang sudah disediakan oleh perusahaan, dengan menggunakan cross validation dengan 5 iterasi untuk mendapatkan nilai sMAPE dari masing-masing model. Model dengan nilai sMAPE terendah akan dipilih sebagai model terbaik.
